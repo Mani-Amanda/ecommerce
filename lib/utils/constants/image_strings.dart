@@ -2,15 +2,13 @@
 class TImages {
   //--App Logos
   static const String darkAppLogo =
-      "assets/logos/logo-black.png"; //add the assets/logps/t-store-splash-logo-black.png
+      ""; //add the assets/logps/t-store-splash-logo-black.png
   static const String lightApplogo =
-      "assets/logos/logo-white.png"; //add assets/logos/t-store-spalsh-logo-wite.png
+      " "; //add assets/logos/t-store-spalsh-logo-wite.png
 
   //--Social Logos
-  static const String google =
-      "assets/icons/google.jpeg"; //add assets/logos/google-icon.png
-  static const String facebook =
-      "assets/icons/facebook.jpeg"; //add assets/logos/facebook-icon.png
+  static const String google = ""; //add assets/logos/google-icon.png
+  static const String facebook = ""; //add assets/logos/facebook-icon.png
 
   //--OnBoarding Images
   static const String onBoardingImage1 =
