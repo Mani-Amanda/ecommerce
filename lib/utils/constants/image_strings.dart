@@ -19,4 +19,18 @@ class TImages {
       "assets/images/on_boarding_images/sammy-line-man-leaning-on-a-growth-chart-while-tossing-a-coin.gif";
   static const String onBoardingImage3 =
       "assets/images/on_boarding_images/sammy-line-woman-on-skateboard-with-file-folders.gif";
+
+  //--Animations
+  static const productIllustration =
+      "assets/images/animations/sammy-line-remote-work.gif";
+  static const productSalesIllustration =
+      "assets/images/animations/sammy-line-man-buys-discounted-goods-online.png";
+  static const staticSuccessIllustration =
+      "assets/images/animations/sammy-line-man-and-woman-high-fiving-each-other.png";
+  static const deliveredInPlaneIllustration =
+      "assets/images/animations/sammy-line-come-back-later.png";
+  static const deliveredEmailIllustration =
+      "assets/images/animations/sammy-line-man-receives-a-mail.png";
+  static const verifyIllustration =
+      "assets/images/animations/sammy-line-travel-backpack-with-passport-and-air-ticket.gif";
 }
