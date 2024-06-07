@@ -1,3 +1,4 @@
+// ignore: dangling_library_doc_comments
 ///List Of Enums
 ///They cannot be creates inside a class
 

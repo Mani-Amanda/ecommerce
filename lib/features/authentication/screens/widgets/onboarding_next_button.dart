@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:ecommerce/features/authentication/controllers/onboarding_controller.dart';
 import 'package:ecommerce/utils/constants/colors.dart';
 import 'package:ecommerce/utils/constants/sizes.dart';

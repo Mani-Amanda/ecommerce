@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:ecommerce/features/authentication/controllers/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:ecommerce/utils/device/device_utility.dart';

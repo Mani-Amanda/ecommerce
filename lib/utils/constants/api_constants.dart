@@ -1,3 +1,4 @@
+// ignore: dangling_library_doc_comments
 ///List of Constants used on API
 
 class APIConstants {

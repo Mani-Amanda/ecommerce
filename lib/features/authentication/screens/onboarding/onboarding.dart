@@ -1,11 +1,11 @@
 import 'package:ecommerce/features/authentication/controllers/onboarding_controller.dart';
-import 'package:ecommerce/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
-import 'package:ecommerce/features/authentication/screens/widgets/onboarding_next_button.dart';
 import 'package:flutter/material.dart';
 import 'package:ecommerce/utils/constants/image_strings.dart';
 import 'package:ecommerce/utils/constants/text_strings.dart';
-import 'package:ecommerce/features/authentication/screens/widgets/onboarding_skip.dart';
 import 'package:get/get.dart';
+import 'package:ecommerce/features/authentication/screens/widgets/onboarding_skip.dart';
+import 'package:ecommerce/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
+import 'package:ecommerce/features/authentication/screens/widgets/onboarding_next_button.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -44,10 +44,10 @@ class OnboardingScreen extends StatelessWidget {
           const onBoardingSkip(),
 
           ///Dot Navigation SmoothPageIndicator
-          OnBoardingDotNavigation(),
+          const OnBoardingDotNavigation(),
 
           ///Circular Button
-          onboardingnextbutton(),
+          const onboardingnextbutton(),
         ],
       ),
     );

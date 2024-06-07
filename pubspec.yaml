@@ -43,7 +43,6 @@ flutter:
   #-------------LOCAL ASSETS----------#
   assets:
     - assets/logos/
-    - assets/icons/
     - assets/images/on_boarding_images/
 
   #------------LOCAL FONTS----#
