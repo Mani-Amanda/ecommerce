@@ -45,7 +45,7 @@ class VerifyEmailScreen extends StatelessWidget {
                     textAlign: TextAlign.center),
                 const SizedBox(height: TSizes.spaceBtwItem),
                 Text(TText.confirmEmailSubTitle,
-                    style: Theme.of(context).textTheme.headlineSmall,
+                    style: Theme.of(context).textTheme.labelMedium,
                     textAlign: TextAlign.center),
                 const SizedBox(height: TSizes.spaceBtwSections),
 

@@ -1,6 +1,7 @@
 import 'package:ecommerce/common/widgets/login_signup/form_divider.dart';
 import 'package:ecommerce/common/widgets/login_signup/social_buttons.dart';
 import 'package:ecommerce/common/widgets/styles/spacing_styles.dart';
+import 'package:ecommerce/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:ecommerce/features/authentication/screens/signup/signup.dart';
 import 'package:ecommerce/utils/constants/image_strings.dart';
 import 'package:ecommerce/utils/constants/sizes.dart';
@@ -83,7 +84,8 @@ class LoginScreen extends StatelessWidget {
 
                           ///Forget password
                           TextButton(
-                              onPressed: () {},
+                              onPressed: () =>
+                                  Get.to(() => const ForgetPassword()),
                               child: const Text(TText.forgetPassword)),
                         ],
                       ),
