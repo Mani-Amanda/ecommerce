@@ -1,7 +1,7 @@
 import 'package:ecommerce/common/widgets/login_signup/form_divider.dart';
 import 'package:ecommerce/common/widgets/login_signup/social_buttons.dart';
 import 'package:ecommerce/common/widgets/styles/spacing_styles.dart';
-import 'package:ecommerce/utils/constants/colors.dart';
+import 'package:ecommerce/features/authentication/screens/signup/signup.dart';
 import 'package:ecommerce/utils/constants/image_strings.dart';
 import 'package:ecommerce/utils/constants/sizes.dart';
 import 'package:ecommerce/utils/constants/text_strings.dart';
@@ -101,7 +101,8 @@ class LoginScreen extends StatelessWidget {
                       SizedBox(
                           width: double.infinity,
                           child: OutlinedButton(
-                              onPressed: () {},
+                              onPressed: () =>
+                                  Get.to(() => const SignupScreen()),
                               child: const Text(TText.creatAccount))),
                     ],
                   ),
@@ -113,7 +114,7 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(height: TSizes.spaceBtwSections),
 
               ///footer
-              TSocialButtons(),
+              const TSocialButtons(),
             ],
           ),
         ),
