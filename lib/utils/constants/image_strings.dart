@@ -56,4 +56,16 @@ class TImages {
   static const String promoBanner1 = "assets/images/banners/banner1.png";
   static const String promoBanner2 = "assets/images/banners/banner2.png";
   static const String promoBanner3 = "assets/images/banners/banner3.png";
+
+  //Products
+  static const String productImage1 = "assets/images/products/p1.jpg";
+  static const String productImage2 = "assets/images/products/p2.jpg";
+  static const String productImage3 = "assets/images/products/p3.jpg";
+  static const String productImage4 = "assets/images/products/p4.jpg";
+  static const String productImage5 = "assets/images/products/p5.jpg";
+  static const String productImage6 = "assets/images/products/p6.jpg";
+  static const String productImage7 = "assets/images/products/p7.jpg";
+  static const String productImage8 = "assets/images/products/p8.jpg";
+  static const String productImage9 = "assets/images/products/p9.jpg";
+  static const String productImage10 = "assets/images/products/p10.jpg";
 }
